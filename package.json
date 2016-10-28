@@ -9,7 +9,8 @@
   "author": "cjg",
   "license": "MIT",
   "dependencies": {
-    "koa": "^1.2.4"
+    "koa": "^1.2.4",
+    "nunjucks": "^2.5.2"
   },
   "repository": {
     "type": "git",
