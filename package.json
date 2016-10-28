@@ -1,0 +1,33 @@
+{
+  "name": "koa-simple-nunjucks",
+  "version": "1.0.0",
+  "description": "koa middleware for nunjucks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cjg",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^1.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjg125/koa-simple-nunjucks.git"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "nunjucks"
+  ],
+  "bugs": {
+    "url": "https://github.com/cjg125/koa-simple-nunjucks/issues"
+  },
+  "homepage": "https://github.com/cjg125/koa-simple-nunjucks",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "koa": "^1.2.4"
+  }
+}
