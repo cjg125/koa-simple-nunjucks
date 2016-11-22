@@ -2,8 +2,8 @@
 
 const nj = require('nunjucks')
 
-module.exports = function(path, options) {
-  let env = nj.configure(path, options || {})
+module.exports = function(config, options = {}) {
+  let env = nj.configure(config.path, options)
   return function*(next) {
     this.render = (file, data) => {
       return (done) => {
