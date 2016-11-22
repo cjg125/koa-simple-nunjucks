@@ -21,6 +21,14 @@ app.listen(3000)
 
 ```
 
+## Examples
+```sh
+$ git clone https://github.com/cjg125/koa-simple-nunjucks.git demo
+$ cd demo
+$ node examples/
+# http://127.0.0.1:3000/
+```
+
 ## Config Options
 
 [nunjucks](https://mozilla.github.io/nunjucks/api.html#configure)
